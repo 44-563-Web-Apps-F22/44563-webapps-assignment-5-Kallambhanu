@@ -21,7 +21,9 @@
 }
 tr:nth-child(even) {background-color: #888c94;}
 .dropdown{
-   padding: 5px;
+   padding: 10px;
+   border:1px solid black;
+
 }
 .nav-link active{
     color:coral;
@@ -34,14 +36,15 @@ tr:nth-child(even) {background-color: #888c94;}
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="insects.html">Interesting Insects</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand" href="insects.html">Interesting Insects</a>
         <br>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportContent">
           <ul class="navbar-nav mr-auto mb-2 mb-lg=0">
+            
             <li class="nav-link"><a class="nav-link active" href="Basic.html">Basic Text</a></li>
             <li class="nav-link"><a class="nav-link active" href="Advanced.html"> Advanced Text</a></li>
           </ul>
@@ -185,6 +188,49 @@ tr:nth-child(even) {background-color: #888c94;}
 
             </div>
           </div>
+       <form>
+        <div class="form-group">
+          <label for="InputEmailaddress" class="form-label">Email address</label>
+          <input type="email address" placeholder="Enter your email address:" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">no email shared</div>
+        </div>
+        <div class="form-group">
+          <label for="Insect name" class="form-label">Insects</label>
+          <input type="text" placeholder="Enter your insect:" class="form-control" for="insects">
+          <div id="InsectChoice" class="form-text">Enter your Insect name</div>
+        </div>
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="formcheck">
+          <label class="form-check-label" for="formCheck">Sign up for newsletter?</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="Alderflies.jpg" class="card-img-top" alt="Alderflies">
+          <div class="card-body">
+            <h5 class="card-title">Alderflies</h5>
+            <p class="card-text">Alderflies are megalopteran insects of the family Sialidae. They are closely related to the dobsonflies and fishflies as well as to the prehistoric Euchauliodidae. All living alderflies about 66 species all together are part of the subfamily Sialinae, which contains between one and seven extant genera according to different scientists' views.  </p>
+            <a href="https://en.wikipedia.org/wiki/Alderfly" class="btn btn-primary">About Insect</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="Killar wasps.jpg" class="card-img-top" alt="Killar Wasps">
+          <div class="card-body">
+            <h5 class="card-title">Killar Wasps</h5>
+            <p class="card-text">Sphecius speciosus, often simply referred to as the cicada killer or the cicada hawk, is a large, solitary digger wasp species in the family Crabronidae. The name may be applied to any species of crabronid that preys on cicadas, though in North America, it is typically applied to this species, also referred to as the eastern cicada killer in order to further differentiate it from the multiple other examples of related wasp species. Sometimes, they are called sand hornets,[1] although they are not hornets, which belong to the family Vespidae.  </p>
+            <a href="https://en.wikipedia.org/wiki/Sphecius_speciosus" class="btn btn-primary"> About Insect </a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="Mantids.jpg" class="card-img-top" alt="Mantids">
+          <div class="card-body">
+            <h5 class="card-title">Mantids</h5>
+            <p class="card-text">Mantises are an order (Mantodea) of insects that contains over 2,400 species in about 460 genera in 33 families. The largest family is the Mantidae ("mantids"). Mantises are distributed worldwide in temperate and tropical habitats. They have triangular heads with bulging eyes supported on flexible necks. </p>
+            <a href="https://en.wikipedia.org/wiki/Mantis#:~:text=Mantises%20are%20an%20order%20(Mantodea,eyes%20supported%20on%20flexible%20necks." class="btn btn-primary">About Insect</a>
+          </div>
+        </div>
+      </div>
 
 
 </body>
